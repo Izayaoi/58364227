@@ -11,5 +11,3 @@ COPY . /usr/src/app
 CMD ["npm","start"]
 
 
-docker build -t theerawut/node-express .
-docker run --name node-express -p 3000:3000 theerawut/node-express
