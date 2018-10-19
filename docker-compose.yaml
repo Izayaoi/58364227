@@ -1,8 +1,8 @@
 version: '3'
 services:
   myapp:
-    image: theerawut/node-express
+    image: izayaoi/58364227
     ports:
-      - "3000:3000"
-    command: "npm start"
+      - "8059:3000"
+    command: " node index.js"
 
